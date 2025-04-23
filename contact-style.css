@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a1a;
+    color: white;
+}
+
+.contact-section {
+    background: url('world-map.png') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+.contact-section a {
+    color: #ff4c4c;
+    text-decoration: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-left {
+    width: 45%;
+    min-width: 280px;
+    margin-right: 20px;
+}
+
+.form-right {
+    width: 45%;
+    min-width: 280px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    background-color: #fff;
+    color: #000;
+}
+
+textarea {
+    height: 150px;
+}
+
+.send-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #b22222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: #e60000;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-left, .form-right {
+        width: 90%;
+        margin: 0;
+    }
+}
