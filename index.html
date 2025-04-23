@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Nikwade | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Shubham Nikwade</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Hi There! I'm</h2>
+            <h1>Shubham Nikwade</h1>
+            <p>Computer Science & Data Science Student | Tech Enthusiast</p>
+        </div>
+        <div class="hero-image">
+            <img src="suit.jpeg" alt="Profile Picture" class="larger-image">
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Passionate about technology and driven by a thirst for knowledge, I am currently pursuing B.Tech with a specialization in Data Science. 
+            I am constantly exploring new technologies, refining my programming skills, and seeking opportunities to grow.
+        </p>
+        <p>
+            I believe in the power of collaboration and knowledge-sharing—engaging in discussions, exchanging ideas, and learning from diverse perspectives.
+            Growth happens best when we learn together.
+            Beyond tech, I enjoy expanding my knowledge across various domains, always curious to explore something new.
+        </p>
+    </section>
+    
+    <section id="services">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>HTML & CSS</li>
+            <li>Data Science Basics</li>
+        </ul>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-container">
+            <div class="certification">
+                <img src="gr8.png" alt="SQL Certification">
+                <div class="certification-caption">
+                    <h3>Oracle SQL Certification</h3>
+                    <p>Completed a certified course in Oracle SQL from Great Learning, covering database fundamentals, queries, joins, and optimization techniques.</p>
+                </div>
+            </div>
+            <div class="certification">
+                <img src="data.png" alt="Python Certification">
+                <div class="certification-caption">
+                    <h3>Datathon</h3>
+                    <p>Successfully participated in Round 1 of Datathon 2025, organized by GirlScript at MITAOE, as part of Team Recursive Rebels.
+                        Gained hands-on experience in data-driven problem solving from March 29 to April 7, 2025.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="portfolio">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-image left">
+                    <video width="300" height="200" autoplay loop muted>
+                        <source src="mess.mp4" type="video/mp4">
+                    </video>                    
+                </div>
+                <div class="project-text">
+                    <h3>Smart Mess Management System
+                    </h3>
+                    <p> Along with my team, I developed a Smart Mess Management System to streamline mess operations, including meal booking, billing, and attendance tracking. 
+                        The system uses real-time data to improve efficiency and user experience, allowing users to easily manage their meal preferences and payments. This project enhanced our skills in system design, problem-solving, and database management.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text">
+                    <h3>Digital Website for Daily Wage Workers</h3>
+                    <p>Together with my team, I developed a digital platform designed to help daily wage workers find job opportunities and manage their work schedules.
+                     The website connects workers with potential employers, providing a user-friendly interface for posting jobs, applying for positions, and tracking work hours. 
+                     This project aimed to empower workers by offering a simple, accessible tool for improving their employment prospects, while also enhancing our skills in web development and user experience design.
+                    </p>
+                </div>
+                <div class="project-image right">
+                    <img src="workers.jpeg" alt="Project 2">
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-image left">
+                    <div class="project-image left">
+                        <video width="300" height="200" autoplay loop muted>
+                            <source src="portfolio.mp4" type="video/mp4">
+                        </video>                    
+                    </div>
+                </div>
+                <div class="project-text">
+                    <h3>Digital Portfolio Development</h3>
+                    <p> 
+                        I developed a comprehensive digital portfolio using HTML and CSS to effectively showcase my academic, extracurricular, and professional achievements. This project involved designing a clean, user-friendly interface with a focus on visual appeal and easy navigation.
+                        By leveraging HTML for structure and CSS for styling, I was able to create a professional, well-organized platform that highlights my skills and experiences, while also strengthening my web development abilities. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-content">
+          <p>Email: shubhamnikwade2@gmail.com</p>
+          <p>Public profile: <a href="https://www.linkedin.com/in/shubham-nikwade-46587b330" target="_blank">Visit My LinkedIn Profile</a></p>
+          <p>Phone: +91 7385201128</p>
+          <p>Location: Pune, Maharashtra, India</p>
+          <p>If you'd like to get in touch with me, click the button below to open the dedicated contact form.</p>
+          <a href="contact.html" class="contact-button">Contact Me</a>
+        </div>
+      </section>
+      
+    <footer>
+        <p>&copy; 2025 Shubham Nikwade. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            easing: 'ease-in-out', // Smooth effect
+            once: true // Run only once
+        });
+    </script>
+</body>
+</html>
